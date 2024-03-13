@@ -1,13 +1,13 @@
 # pdf-tables-to-excel
 
-## First step
+## Install
 
 ```
-pip install -r requirements.txt
+$ rye install --git https://github.com/moriyku/pdf-tables-to-excel.git
 ```
 
 ## Usage
 
 ```
-$ python main.py [PDF_FILE]
+$ rye run pdf-tables-to-excel [PDF_FILE]
 ```
